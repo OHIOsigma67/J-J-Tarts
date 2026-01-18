@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>J&J Tarts</title>
+  </head>
+  <body>
+<!-- Navbar -------------------------------------------------------->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html"><img src="assets/J&J Tarts logo.png" alt="logo" style="width:  40px;">J&J Tarts</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Our Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="history.html">J&J Tarts history</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>   
+      <li class="nav-item"><a class="nav-link" href="meettheteam.html">Meet the team</a></li>  
+      <li class="nav-item"><a class="nav-link" href="services.html">Our services</a></li>
+    </ul>
+  </div>  
+</nav>
+<br>
+
+
+<!-- Navbar End----------------------------------------------------->
+
+<!-- Main ---------------------------------------------------------->
+ <div class="conatiner-fluid">
+  <p></p>
+</div>
+<div class="container">
+  <h3>CONTACT</h3>
+  <hr>
+  <h3 class="text-center">Contact Me Form</h3>
+  <hr>
+ 
+  <div class="container-fluid d-flex justify-content-center">
+   
+    <form id="myForm" style="width: 450px;" class="was-validated" onsubmit="myFormSubmits(event)">
+   
+      <!-- Select Title -->
+      <div class="form-group">
+        <label for="nameTitle">Title</label>
+        <select id="nameTitle" class="form-control" name="Title " required>
+          <option value="">Please select a title...</option>
+          <option value="MR">MR.</option>
+          <option value="MISS">Miss</option>
+          <option value="MRS">Mrs.</option>
+          <option value="DR">Dr.</option>
+        </select>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+   
+      <!-- Full Name -->
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" name="Full Name " placeholder="Please enter your full name" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+     
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" placeholder="Please enter your email"  name="Email "  required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+     
+      <!-- Phone Number -->
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" class="form-control" id="phoneNumber" placeholder="Please enter your phone number"  name="Phone Number "  required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+     
+      <!-- Address -->
+      <div class="form-group">
+        <label for="address">Reason for Contacting</label>
+        <textarea class="form-control" id="address" rows="3" placeholder="Reason for your contact...." name="Contact Reason "  required></textarea>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+     
+      <!-- Upload CV -->
+      <div class="form-group">
+        <label for="uploadFict">Upload picture or document of issue</label>
+        <small class="text-muted">* OPTIONAL</small>
+        <input type="file" class="form-control-file" id="uploadFict" name="File Upload ">
+     </div>
+     
+      <!-- Buttons -->
+      <div class="form-group text-center">
+        <button type="submit" class="btn btn-success">Submit Application</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Main End ------------------------------------------------------>
+
+<!-- Footer -------------------------------------------------------->
+  <h3>Footer</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      <p>Copyright scopy 2025 smiddot All right reserved smiddot <a href="a">Project Website</a></p>
+    </div>
+    <div class="col-md-6">
+    <ul class="lis inline">
+      <li class="list-inline-item"><a href="a" class="text-muted">privacy policy</a></li>
+      <li class="list-inline-item"><a href="a" class="text-muted">Terms of use</a></li>
+      <li class="list-inline-item"><a href="a" class="text-muted">Contact us</a></li>
+            <img src="assets/Instagram_logo_2022.svg" alt="Our bakery" width="60" height="50">
+      <img src="assets/Facebook_logo_(square).png" alt="Our bakery" width="60" height="50">
+      <img src="assets/64cebc6c19c2fe31de94c78e_X-vector-logo-download.png" alt="Our bakery" width="60" height="50">
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+<!-- Footer End ---------------------------------------------------->
+
+<!-- CUSTOM SCRIPTING FILE ------------------>
+<script src="js/formscript.js"></script>
+<!-- CUSTOM SCRIPTING FILE ------------------>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

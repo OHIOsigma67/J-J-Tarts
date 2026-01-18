@@ -1,0 +1,22 @@
+/* Creating a website using external styling - styles.css
+/* USE DOWN TO LINE 22 FOR THE index.html page */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(36, 10, 77)
+    }
+}
+
+body{
+    border: 5px solid rgb(80, 20, 177);
+    padding: 5px;
+}
+
+ul{
+    list-style-type:none;
+    margin:o;
+    padding:0;
+}
+
+li{
+    display:inline;
+}
